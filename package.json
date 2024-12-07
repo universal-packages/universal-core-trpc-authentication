@@ -16,7 +16,7 @@
     "update-universal-dependencies": "umaintenance update-universal-dependencies"
   },
   "dependencies": {
-    "@universal-packages/trpc-authentication": "^1.1.2"
+    "@universal-packages/trpc-authentication": "^1.2.0"
   },
   "peerDependencies": {
     "@universal-packages/core-authentication": "^1.1.0"

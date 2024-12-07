@@ -13,6 +13,6 @@ trpcJest.runTrpcServer(appRouter, { user: { id: 99 } })
 
 describe(TrpcAuthenticationEnvironment, (): void => {
   it('initializes trpc under the hud using the authentication module', async (): Promise<void> => {
-    expect(await trpcJest.client(appRouter).me.query()).toEqual({ user: { id: 99 } })
+    expect(await trpcJest.client(appRouter).me.query()).toEqual({ status: 'success', user: { id: 99 } })
   })
 })
